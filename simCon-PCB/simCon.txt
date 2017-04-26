@@ -1,0 +1,52 @@
+Partlist exported from C:/Users/akwilop/Documents/eagle/ACCJOY/ACCJO.sch at 2016-07-14 15:04
+
+Part         Value        Device            Package      Description                                     MF MPN OC_FARNELL OC_NEWARK
+AXES                      MA05-2            MA05-2       PIN HEADER                                             unknown    unknown  
+BUTTONS                   MA18-2            MA18-2       PIN HEADER                                             unknown    unknown  
+C1           100n         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C2           100n         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C3           100n         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C4           100n         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C5           100n         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C6           2,2u         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C7           2,2u         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C8           20p          C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C9           20p          C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C10          100n         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C11          1u           CPOL-EUB/3528-21W B/3528-21W   POLARIZED CAPACITOR, European symbol                                       
+C12          1u           CPOL-EUB/3528-21W B/3528-21W   POLARIZED CAPACITOR, European symbol                                       
+C13          100n         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C14          100n         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C15          1u           C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C16          1u           C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C17          100n         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+C18          100n         C-EUC0805K        C0805K       CAPACITOR, European symbol                                                 
+IC1          MCP1825S     LP2950            DPACK        100 mA, Low Power Low Dropout Voltage Regulator                            
+JP3                       JP1E              JP1          JUMPER                                                                     
+L            fcm1608-0603 R-US_M0805        M0805        RESISTOR, American symbol                                                  
+LED1                      LEDCHIPLED_0805   CHIPLED_0805 LED                                                                        
+LED2                      LEDCHIPLED_0805   CHIPLED_0805 LED                                                                        
+LED3                      LEDCHIPLED_0805   CHIPLED_0805 LED                                                                        
+POWER_SUPPLY              MA07-2            MA07-2       PIN HEADER                                             unknown    unknown  
+Q1           8 MHz        XTAL/S            QS           CRYSTAL                                                                    
+R1           0            R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R2           220          R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R3           47           R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R4           510          R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R5           N/A          R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R6           58           R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R7           60           R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R8           1k           R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R10          680          R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R11          680          R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R12          10k          R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R13          22           R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R14          22           R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R15          22           R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R16          22           R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R17          10k          R-US_M0805        M0805        RESISTOR, American symbol                                                  
+R18          510          R-US_M0805        M0805        RESISTOR, American symbol                                                  
+SWD                       MA06-1            MA06-1       PIN HEADER                                             unknown    unknown  
+TIM                       MA08-1            MA08-1       PIN HEADER                                             unknown    unknown  
+U$1          STM32F407VX  STM32F407VX       LQFP100      STmicroelectronics Cortex M4 Series                                        
+USB                       MA05-1            MA05-1       PIN HEADER                                             unknown    unknown  

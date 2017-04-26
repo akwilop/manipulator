@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_axis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rev1.simcon.axis">
+
+    <TextView
+        android:text="AXIS/ROT/SL/DI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:id="@+id/name" />
+
+    <TextView
+        android:text="@string/logical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textLogical" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textLogical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/barLogical" />
+
+    <TextView
+        android:text="@string/adc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barLogical"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textAdc" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAdc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/barAdc" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barAdc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textMin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barAdc"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textCent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barAdc"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/textMax" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textMin"
+        android:inputType="number"
+        android:ems="4"
+        android:textAlignment="center"
+        android:id="@+id/editMin"
+        android:hint="MIN"
+        android:maxLines="1"
+        android:maxLength="4"
+        android:selectAllOnFocus="true"
+        android:imeOptions="actionDone"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textMax"
+        android:inputType="number"
+        android:ems="4"
+        android:textAlignment="center"
+        android:id="@+id/editCent"
+        android:hint="CENTER"
+        android:maxLines="1"
+        android:maxLength="4"
+        android:selectAllOnFocus="true"
+        android:imeOptions="actionDone"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textMax"
+        android:inputType="number"
+        android:ems="4"
+        android:textAlignment="center"
+        android:id="@+id/editMax"
+        android:hint="MAX"
+        android:maxLines="1"
+        android:maxLength="4"
+        android:selectAllOnFocus="true"
+        android:imeOptions="actionDone"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/checkMod"
+        android:inputType="number"
+        android:ems="4"
+        android:textAlignment="center"
+        android:id="@+id/editFilt"
+        android:hint="FILTER: 256"
+        android:width="125dp"
+        android:maxLines="1"
+        android:maxLength="3"
+        android:selectAllOnFocus="true"
+        android:imeOptions="actionDone"/>
+
+    <CheckBox
+        android:text="ENABLE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editMax"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/editMax"
+        android:id="@+id/checkEn"
+        android:onClick="sendEnable"
+        android:focusable="false"
+        android:clickable="false" />
+
+    <CheckBox
+        android:text="INVERT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkEn"
+        android:layout_alignLeft="@+id/editMax"
+        android:id="@+id/checkInv"
+        android:onClick="sendInvert"
+        android:focusable="false"
+        android:clickable="false" />
+
+    <CheckBox
+        android:text="CENTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkInv"
+        android:layout_alignLeft="@+id/editMax"
+        android:id="@+id/checkMod"
+        android:onClick="sendMod"
+        android:focusable="false"
+        android:clickable="false" />
+
+</RelativeLayout>

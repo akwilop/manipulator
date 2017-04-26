@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SimCon\n/ALPHA/</string>
+    <string name="adc">ADC VALUE:</string>
+    <string name="logical">LOGICAL VALUE:</string>
+    <string name="title_activity_menu_axis">menuAxis</string>
+    <string name="textX">AXIS X</string>
+    <string name="textY">AXIS Y</string>
+    <string name="textZ">AXIS Z</string>
+    <string name="textRX">ROTATION X</string>
+    <string name="textRY">ROTATION Y</string>
+    <string name="textRZ">ROTATION Z</string>
+    <string name="textSL">SLIDER</string>
+    <string name="textDI">DIAL</string>
+    <string name="enabled">ENABLED</string>
+    <string name="disabled">DISABLED</string>
+    <string name="inverted">INVERTED</string>
+    <string name="normal">NORMAL</string>
+    <string name="searching">Searching for\nproper HID device</string>
+
+</resources>
